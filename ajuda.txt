@@ -1,0 +1,49 @@
+Projeto: Sistema Web - MiniMercado Quintian (Fase 1)
+
+Descrição Geral:
+Este projeto consiste na construção de um site simples e funcional, inteiramente em HTML, sem uso de CSS ou JavaScript, voltado para apresentação dos produtos e serviços de um minimercado fictício.
+
+O sistema é dividido em cinco páginas principais, cada uma estruturada com cabeçalho, corpo e rodapé, permitindo a navegação entre categorias de produtos e serviços oferecidos pelo minimercado.
+
+Estrutura do Sistema:
+
+1. index.html
+   - Página inicial do site.
+   - Contém uma introdução ao minimercado e links de navegação para as demais páginas (Frutas, Bebidas, Limpeza e Serviços).
+   - Estrutura: cabeçalho com título e menu de navegação, corpo com apresentação geral e rodapé com informações de contato.
+
+2. frutas.html
+   - Apresenta produtos da categoria frutas (ex: banana e maçã).
+   - Cada produto contém uma imagem, uma descrição e seu respectivo preço.
+
+3. bebidas.html
+   - Apresenta bebidas diversas (ex: suco de laranja, café e água mineral).
+   - Estrutura semelhante às demais páginas: cada bebida é exibida com uma imagem ilustrativa, descrição e valor.
+
+4. limpeza.html
+   - Página com produtos de limpeza disponíveis no minimercado.
+   - Os itens exibidos incluem:
+     • Detergente Líquido — para louças e superfícies
+     • Desinfetante Spray — para higienização de ambientes
+     • Esponja Multiuso — para limpeza geral
+   - Cada item possui imagem, descrição e valor.
+
+5. servicos.html
+   - Apresenta os serviços disponíveis no minimercado, como:
+     • Entrega a domicílio
+     • Recarga de celular
+     • Moagem de café na hora
+   - Cada serviço tem uma breve descrição e seu respectivo custo (quando aplicável).
+
+Funcionalidades:
+- Estrutura de navegação simples via links no cabeçalho e rodapé.
+- Exibição clara de informações de produtos e serviços, com imagens ilustrativas.
+- Organização semântica das seções com uso de `<section>`, `<header>`, `<main>` e `<footer>`.
+- Informações de contato e autoria no rodapé de todas as páginas.
+
+Observações Técnicas:
+- Não há estilos aplicados (sem CSS), nem interações dinâmicas (sem JavaScript), conforme escopo da Fase 1.
+- O sistema foi publicado utilizando o GitHub Pages, com os arquivos hospedados em um repositório público no GitHub.
+
+Autor: João Vitor De Mello Quintian
+Contato: joao.q@edu.pucrs.br
