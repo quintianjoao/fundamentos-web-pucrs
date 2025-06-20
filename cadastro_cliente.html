@@ -1,0 +1,84 @@
+<section class="container my-5" role="form" aria-labelledby="formTitulo">
+    <h3 id="formTitulo">Cadastro de Cliente</h3>
+    <form>
+        <!-- Nome completo -->
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome completo</label>
+            <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome" required aria-required="true" aria-describedby="nomeHelp">
+            <div id="nomeHelp" class="form-text">Informe seu nome completo.</div>
+        </div>
+
+        <!-- CPF -->
+        <div class="mb-3">
+            <label for="cpf" class="form-label">CPF</label>
+            <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required maxlength="14" aria-required="true">
+        </div>
+
+        <!-- Endereço -->
+        <div class="mb-3">
+            <label for="endereco" class="form-label">Endereço</label>
+            <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Rua, número, bairro" required aria-required="true">
+        </div>
+
+        <!-- Telefone -->
+        <div class="mb-3">
+            <label for="telefone" class="form-label">Telefone</label>
+            <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(00) 00000-0000" aria-describedby="telefoneHelp">
+            <div id="telefoneHelp" class="form-text">Informe o telefone no formato (00) 00000-0000.</div>
+        </div>
+
+        <!-- E-mail -->
+        <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="seu@email.com" required aria-required="true" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Informe um e-mail válido.</div>
+        </div>
+
+        <!-- Sexo -->
+        <fieldset class="mb-3" aria-required="true">
+            <legend class="form-label">Sexo</legend>
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="sexoM" name="sexo" value="masculino" required aria-describedby="sexoHelp">
+                <label class="form-check-label" for="sexoM">Masculino</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="sexoF" name="sexo" value="feminino">
+                <label class="form-check-label" for="sexoF">Feminino</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="sexoOutro" name="sexo" value="outro">
+                <label class="form-check-label" for="sexoOutro">Outro</label>
+            </div>
+            <div id="sexoHelp" class="form-text">Escolha uma opção.</div>
+        </fieldset>
+
+        <!-- Forma de recebimento -->
+        <fieldset class="mb-3" aria-required="true">
+            <legend class="form-label">Forma de recebimento</legend>
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="retirada" name="forma_recebimento" value="retirada" required aria-describedby="formaHelp">
+                <label class="form-check-label" for="retirada">Retirada no local</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="entrega" name="forma_recebimento" value="entrega">
+                <label class="form-check-label" for="entrega">Tele-entrega</label>
+            </div>
+            <div id="formaHelp" class="form-text">Escolha uma opção.</div>
+        </fieldset>
+
+        <!-- Agendamento -->
+        <div class="mb-3">
+            <label for="agendamento" class="form-label">Data e hora para entrega ou retirada</label>
+            <input type="datetime-local" class="form-control" id="agendamento" name="agendamento" required aria-required="true">
+        </div>
+
+        <!-- Termos -->
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="termos" required aria-required="true">
+            <label class="form-check-label" for="termos">Declaro que li e aceito os termos de uso</label>
+        </div>
+
+        <!-- Botão -->
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+</section>
