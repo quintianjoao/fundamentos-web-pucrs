@@ -1,4 +1,5 @@
 🛒 Sistema Web - MiniMercado Quintian (Fase 1 e Fase 2)
+
 📌 Descrição Geral
 Este projeto foi desenvolvido como parte das Fases 1 e 2 da disciplina de Fundamentos de Desenvolvimento Web, com o objetivo de construir um site funcional para um minimercado fictício — o MiniMercado Quintian.
 
