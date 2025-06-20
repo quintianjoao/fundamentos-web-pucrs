@@ -1,75 +1,65 @@
-# 🛒 Sistema Web - MiniMercado Quintian (Fase 1)
+🛒 Sistema Web - MiniMercado Quintian (Fase 1 e Fase 2)
+📌 Descrição Geral
+Este projeto foi desenvolvido como parte das Fases 1 e 2 da disciplina de Fundamentos de Desenvolvimento Web, com o objetivo de construir um site funcional para um minimercado fictício — o MiniMercado Quintian.
 
-## 📌 Descrição Geral
+Na Fase 1, o site foi implementado em HTML puro, com navegação entre categorias e apresentação de produtos e serviços.
 
-Este projeto foi desenvolvido como parte da Fase 1 da disciplina de Fundamentos de Desenvolvimento Web, com o objetivo de construir um site estático e funcional em **HTML puro**, **sem o uso de CSS ou JavaScript**.
+Na Fase 2, o projeto foi aprimorado com o uso de CSS/Bootstrap e JavaScript, visando tornar o sistema mais atrativo, dinâmico e acessível, além de incluir funcionalidades essenciais de cadastro e agendamento.
 
-O sistema simula a presença online de um minimercado fictício — o **MiniMercado Quintian** — permitindo a navegação entre categorias de produtos e a visualização dos principais serviços oferecidos.
+📁 Estrutura do Projeto
+O site é composto pelas seguintes páginas principais, todas com estrutura semântica e elementos dinâmicos:
 
----
+1. index.html – Página Inicial
+Apresentação do minimercado com carrossel dinâmico de promoções (Bootstrap).
 
-## 📁 Estrutura do Projeto
+Saudação dinâmica ao usuário baseada no horário local (JavaScript).
 
-O site é composto por cinco páginas principais, todas organizadas com cabeçalho (`<header>`), conteúdo principal (`<main>`) e rodapé (`<footer>`):
+Links de navegação para todas as demais páginas, incluindo o cadastro de cliente.
 
-### 1. `index.html` – Página Inicial
-- Apresentação do minimercado.
-- Links de navegação para todas as demais páginas.
-- Estrutura com cabeçalho, corpo e rodapé com informações institucionais.
+2. frutas.html – Categoria: Frutas
+3. bebidas.html – Categoria: Bebidas
+4. limpeza.html – Categoria: Produtos de Limpeza
+5. servicos.html – Serviços do Minimercado
+6. cadastro_cliente.html – Cadastro e Agendamento
+Formulário completo para cadastro do cliente com campos variados e validações.
 
-### 2. `frutas.html` – Categoria: Frutas
-- Exibição de produtos como **banana** e **maçã**.
-- Cada item possui imagem, descrição e valor.
+Escolha entre retirada no local ou tele-entrega.
 
-### 3. `bebidas.html` – Categoria: Bebidas
-- Produtos como **suco de laranja**, **café** e **água mineral**.
-- Estrutura semelhante às demais páginas.
+Agendamento de data e hora para entrega ou retirada utilizando campo calendário (datetime-local).
 
-### 4. `limpeza.html` – Categoria: Produtos de Limpeza
-- Itens como:
-  - Detergente Líquido
-  - Desinfetante Spray
-  - Esponja Multiuso
-- Com imagem, descrição e preço.
+Implementação de requisitos básicos de acessibilidade, incluindo uso adequado de labels, descrições e atributos ARIA.
 
-### 5. `servicos.html` – Serviços do Minimercado
-- Serviços disponíveis:
-  - Entrega a domicílio
-  - Recarga de celular
-  - Moagem de café na hora
-- Cada serviço tem uma breve descrição e valor, quando aplicável.
+🌐 Acesso ao Projeto
+Repositório no GitHub:
+https://github.com/quintianjoao/fundamentos-web-pucrs
 
----
+Site publicado no GitHub Pages:
+https://quintianjoao.github.io/fundamentos-web-pucrs/
 
-## 🌐 Acesso ao Projeto
+✅ Funcionalidades
+Navegação completa entre as páginas do site via menu e rodapé.
 
-- **Repositório no GitHub:**  
-  [https://github.com/quintianjoao/fundamentos-web-pucrs](https://github.com/quintianjoao/fundamentos-web-pucrs)
+Carrossel responsivo para exibição de promoções usando Bootstrap.
 
-- **Site publicado no GitHub Pages:**  
-  [https://quintianjoao.github.io/fundamentos-web-pucrs/](https://quintianjoao.github.io/fundamentos-web-pucrs/)
+Saudação dinâmica que muda conforme o horário do usuário (JavaScript).
 
----
+Formulário de cadastro com validação e variados tipos de campos.
 
-## ✅ Funcionalidades
+Agendamento de entrega ou retirada com uso de calendário.
 
-- Navegação entre páginas via links no menu superior e no rodapé.
-- Organização semântica com uso de tags HTML5 (`<section>`, `<main>`, etc.).
-- Exibição de produtos e serviços com imagens ilustrativas.
-- Informações de autoria e contato incluídas no rodapé de todas as páginas.
+Requisitos de acessibilidade aplicados, garantindo melhor usabilidade para deficientes visuais.
 
----
+⚙️ Observações Técnicas
+Uso de Bootstrap 5 para estilização e componentes responsivos.
 
-## ⚙️ Observações Técnicas
+JavaScript para interatividade e dinamicidade do sistema.
 
-- Projeto desenvolvido **exclusivamente com HTML**, sem uso de estilos (CSS) ou scripts (JavaScript).
-- Estrutura validada para fins acadêmicos conforme as Aulas 1 a 5 da disciplina.
-- Hospedagem realizada via **GitHub Pages**, com versão pública disponível para visualização.
+Implementação de acessibilidade por meio de atributos semânticos e ARIA.
 
----
+Projeto estruturado para futura expansão e integração backend.
 
-## 👤 Autor
+Hospedagem realizada via GitHub Pages com branch principal master.
 
-**João Vitor De Mello Quintian**  
-Contato: [joao.q@edu.pucrs.br](mailto:joao.q@edu.pucrs.br)
-
+👤 Autor
+João Vitor De Mello Quintian
+Contato: joao.q@edu.pucrs.br
